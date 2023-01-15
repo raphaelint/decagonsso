@@ -46,9 +46,9 @@ The process typically works as follows:
 4. The token is passed back to the SSO agent.
 5. The SSO agent uses the token to grant the user access to the protected resource.
 
-The diagram could be represented as follows:
+**The diagram could be represented as follows:**
 
-![images/sso.jpg]
+![SSO diagram](images/sso.jpg)
 
 **SSO DESIGN Diagram**
 
@@ -100,9 +100,10 @@ The UML class diagram could be represented as follows:
 
     -accessGranted(session)
 
-The database design could be represented as follows:
 
-![images/db.png]
+**The database design could be represented as follows:**
+
+![database design](images/db.png)
 
 # Approach to OOP and designing loosely-couped systems
 
