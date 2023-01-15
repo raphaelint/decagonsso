@@ -48,7 +48,7 @@ The process typically works as follows:
 
 The diagram could be represented as follows:
 
-![](RackMultipart20230115-1-55s8ua_html_3af8f1baf469d8d0.jpg)
+![images/sso.jpg]
 
 **SSO DESIGN Diagram**
 
@@ -72,37 +72,37 @@ The UML class diagram could be represented as follows:
 
 **User**
 
-username
+    -username
 
-password
+    -password
 
 **Credentials**
 
-username
+    -username
 
-password
+    -password
 
 **Session**
 
-session\_token
+    -session\_token
 
-expiration\_time
+    -expiration\_time
 
 **IdentityProvider**
 
-authenticate(username, password)
+    -authenticate(username, password)
 
-generateToken(session)
+    -generateToken(session)
 
 **ServiceProvider**
 
-authenticate(token)
+    -authenticate(token)
 
-accessGranted(session)
+    -accessGranted(session)
 
 The database design could be represented as follows:
 
-![](RackMultipart20230115-1-55s8ua_html_4383137a892e9e8b.png)
+![images/db.png]
 
 # Approach to OOP and designing loosely-couped systems
 
